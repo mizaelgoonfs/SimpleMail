@@ -1,0 +1,123 @@
+main .messages-sent {
+    display: flex;
+    justify-content: left;
+}
+
+main .cards-message-list-sent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 260px;
+}
+
+.cards-message-list-sent h1{
+    font-family: Heebo;
+    font-weight: 700;
+    text-align: left;
+
+    color: #D2DAF5;
+    font-size: 1.6rem;
+    
+    margin-top: 20px;
+    padding: 20px 40px;
+}
+
+main .cards-message-list-sent .card-message-list-sent {
+    background-color: #2F3644;
+    padding: 20px 40px;
+    width: 60rem;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.cards-message-list-sent .card-message-list-sent header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.card-message-list-sent header h2 {
+    font-family: Noto Sans;
+    font-weight: 700;
+
+    color: #D2DAF5;
+
+    font-size: 1.4rem;
+}
+
+.card-message-list-sent h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Noto Sans;
+    font-weight: 500;
+
+    color: #D2DAF5;
+
+    font-size: 0.9rem;
+}
+
+.card-message-list-sent a {
+    text-decoration: none;
+}
+
+.line-message-list-sent {
+    background-color: #3E445B;
+    height: 2px;
+}
+
+.card-message-list-sent p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-family: Noto Sans;
+    font-weight: 500;
+    padding: 5px 0px;
+    color: #B3BACF;
+}
+
+.btns-message-list-sent {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.btns-message-list-sent button {
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 1.1rem;
+    border: 0;
+
+    border-radius: 10px;
+
+    font-family: Heebo;
+    font-weight: 700;
+    
+    cursor: pointer;
+
+    padding: 5px 30px;
+
+    margin: 0px 5px 0px 5px;
+    white-space: nowrap;
+}
+
+.btn-forward-message button{
+    background-color: #80D8FF;
+}
+
+.btn-readmore button{
+    background-color: #3DECB1;
+    
+}
+
+.btn-delete button{
+    background-color: rgb(241, 45, 45);
+}
+
+.messages-sent .error-message h2 {
+    font-family: Noto Sans;
+    font-weight: 700;
+    color: rgb(240, 47, 47);
+    font-size: 1.4rem;
+    margin-top: 20px;
+    padding: 20px 40px;
+}

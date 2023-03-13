@@ -1,0 +1,120 @@
+main .reply {
+    display: flex;
+    justify-content: left;
+}
+
+.card-reply {
+    margin-left: 260px;
+    margin-top: 10px;
+    
+    background-color: #2F3644;
+    padding: 30px 70px;
+    border-radius: 15px;
+    width: 50rem;
+}
+
+.card-reply h1{
+    font-family: Heebo;
+    font-weight: 700;
+    text-align: center;
+
+    color: #D2DAF5;
+
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.line-reply {
+    height: 2px;
+    background-color: #3E445B;
+}
+
+.card-body-reply {
+    margin-top: 25px;
+
+}
+
+.fields-reply {
+    margin-bottom: 10px;
+}
+
+.fields-reply label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+
+    color: #D2DAF5;
+
+    font-family: Poppins;
+}
+
+.fields-reply input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.2rem;
+
+    padding-left: 15px;
+}
+
+.fields-reply input {
+    height: 35px;
+    font-size: 1.1rem;
+}
+
+.fields-reply input[type="text"]:disabled {
+    background: #ccc;
+}
+
+.fields-reply textarea {
+    height: 190px;
+    resize: none;
+
+    padding-top: 10px;
+}
+
+.btns-reply {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.btns-reply button{
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 1.1rem;
+
+    width: 220px;
+    padding: 5px 50px;
+    color: #fff;
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.btn-discard button{
+    margin-left: 100px;
+    background-color: rgb(241, 45, 45);
+}
+
+.btn-reply button {
+    margin-right: 100px;
+    background-color: #3DECB1;
+}
+
+.btn-reply button:hover {
+    transition: 0.2s;
+    background-color: #538af0;
+}
+
+.error-message {
+    color: rgb(240, 47, 47);
+}

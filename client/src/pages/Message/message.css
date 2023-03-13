@@ -1,0 +1,127 @@
+main .message {
+    display: flex;
+    justify-content: left;
+}
+
+main .cards-message-unique{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 260px;
+}
+
+.cards-message-unique h1{
+    font-family: Heebo;
+    font-weight: 700;
+    text-align: left;
+
+    color: #D2DAF5;
+    font-size: 1.6rem;
+    
+    margin-top: 20px;
+    padding: 20px 40px;
+}
+
+main .cards-message-unique .card-message-unique {
+    background-color: #2F3644;
+    padding: 20px 40px;
+    width: 80rem;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.cards-message-unique .card-message-unique header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+}
+
+.card-message-unique header h2 {
+    font-family: Noto Sans;
+    font-weight: 700;
+
+    color: #D2DAF5;
+
+    font-size: 1.4rem;
+}
+
+.card-message-unique h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Noto Sans;
+    font-weight: 500;
+
+    color: #D2DAF5;
+
+    font-size: 1rem;
+}
+
+.line-message-unique {
+    background-color: #3E445B;
+    height: 2px;
+}
+
+.card-message-unique p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    
+    max-width: 50rem;
+
+    font-family: Noto Sans;
+    font-weight: 500;
+
+    color: #B3BACF;
+}
+
+.card-message-unique .message-reply p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    
+    max-width: 50rem;
+
+    font-family: Noto Sans;
+    font-weight: 500;
+
+    color: #B3BACF;
+
+    cursor: pointer;
+}
+
+.btns-message-unique {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.btns-message-unique button {
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 1.1rem;
+    border: 0;
+
+    border-radius: 10px;
+
+    font-family: Heebo;
+    font-weight: 700;
+    
+    cursor: pointer;
+
+    padding: 5px 30px;
+
+    margin: 0px 5px 0px 5px;
+    white-space: nowrap;
+}
+
+.btn-forward-message button{
+    background-color: #80D8FF;
+}
+
+.btn-reply-message button{
+    background-color: #3DECB1;
+    
+}
+
+.btn-delete button{
+    background-color: rgb(241, 45, 45);
+}
