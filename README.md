@@ -14,19 +14,19 @@ Obs.: É necessário antes de executar este projeto, ter instalado e executando 
 -> [Tutorial para instalação](https://www.youtube.com/watch?v=rTtb1hkHNBI).
 * [Banco de dados - MySQL](https://www.mysql.com/downloads/).
 
-Para excutar o projeto, é necessário colar o pasta do projeto (`SimpleMail`) dentro da pasta `htdocs` no diretório onde o Xampp foi instalado: `xampp/htdocs`.
+Para executar o projeto, é necessário colar o pasta do projeto (`SimpleMail`) dentro da pasta `htdocs` no diretório onde o Xampp foi instalado. Portanto, a organização dos diretórios deve ficar da seguinte forma: `xampp\htdocs\SimpleMail`.
 
 ### Configurando o Banco de Dados
 
 Para iniciar a database, use o `PHPMyAdmin` e execute o script contido no arquivo `api-database.sql`. Esse código cria uma base de dados chamada `api`; cria as tabelas e insere alguns dados de exemplo.
 
-Após isso, verifique se suas credenciais estão corretas no arquivo `db.class.php` no seguinte diretório: `server/classes/db.class.php`
+Após isso, verifique se suas credenciais estão corretas no arquivo `db.class.php` no seguinte diretório: `SimpleMail\server\classes\db.class.php`
 
 ### Iniciando o Servidor
 
-Para iniciar o servidor da aplicação, certifique-se de ter o módulo Apache rodando na porta 80 e o MySQL excutando na porta padrão. Execute estas operações através da acão `Start` em cada opção dentro do programa XAMPP, instalado anteriomente.
+Para iniciar o servidor da aplicação, certifique-se de ter o módulo Apache rodando na porta 80 e o MySQL executando na porta padrão. Execute estas operações através da ação `Start` em cada opção dentro do Control Panel do programa XAMPP, instalado anteriormente.
 
-### Iniciando o Sliente
+### Iniciando o Cliente
 
 Primeiramente, acesse a pasta do cliente:
 ```sh
@@ -56,7 +56,7 @@ http://localhost:3000
 Retorna uma lista de mensagens enviadas para o usuário com nome de usuário igual a :username passado por parâmetro.
 
 ### GET /sent-messages/list/:username
-Retorna uma lista de mensagens que foram enviadas pelo usuário com nome de usuário igual a :username.
+Retorna uma lista de mensagens enviadas pelo usuário com nome de usuário igual a :username.
 
 #### GET messages/list/:id
 Retorna a mensagem com id igual ao passado como parâmetro na URL.
